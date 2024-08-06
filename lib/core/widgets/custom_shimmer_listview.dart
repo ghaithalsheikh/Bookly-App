@@ -7,6 +7,7 @@ class CustomShimmerListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      padding: EdgeInsets.zero,
       shrinkWrap: true,
       itemCount: 3,
       itemBuilder: (context, index) {
@@ -39,7 +40,7 @@ class CustomShimmerListView extends StatelessWidget {
                         color: Colors.orange,
                       ),
                     ),
-                    SizedBox(height: 25),
+                    const SizedBox(height: 25),
                     Shimmer.fromColors(
                       baseColor: Colors.grey,
                       highlightColor: Colors.grey[600]!,
@@ -49,7 +50,7 @@ class CustomShimmerListView extends StatelessWidget {
                         color: Colors.orange,
                       ),
                     ),
-                    SizedBox(height: 25),
+                    const SizedBox(height: 25),
                     Shimmer.fromColors(
                       baseColor: Colors.grey,
                       highlightColor: Colors.grey[600]!,

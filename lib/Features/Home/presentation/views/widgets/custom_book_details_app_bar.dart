@@ -6,7 +6,7 @@ class CustomBookDetailsAppbar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 20, horizontal: 30),
+      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 30),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -14,7 +14,7 @@ class CustomBookDetailsAppbar extends StatelessWidget {
               onPressed: () {
                 Navigator.pop(context);
               },
-              icon: Icon(Icons.close)),
+              icon: const Icon(Icons.close)),
         ],
       ),
     );

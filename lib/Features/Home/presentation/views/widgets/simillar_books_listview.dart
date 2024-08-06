@@ -1,6 +1,6 @@
-import 'package:bookly_app/Features/Home/presnetaion/view_models/simillar_books_cubit/simillar_books_cubit.dart';
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/custom_book_image.dart';
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/custom_shimmer_simillar.dart';
+import 'package:bookly_app/Features/Home/presentation/view_models/simillar_books_cubit/simillar_books_cubit.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/custom_book_image.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/custom_shimmer_simillar.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:bookly_app/core/widgets/custom_error_widget.dart';
 import 'package:bookly_app/core/widgets/custom_loading_indicator.dart';

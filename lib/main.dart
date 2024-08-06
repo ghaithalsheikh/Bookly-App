@@ -1,6 +1,6 @@
 import 'package:bookly_app/Features/Home/data/repos/home_repo_imp.dart';
-import 'package:bookly_app/Features/Home/presnetaion/view_models/featured_books_cubit/featured_books_cubit.dart';
-import 'package:bookly_app/Features/Home/presnetaion/view_models/fetaured_newset_books_cubit/featured_newset_books_cubit.dart';
+import 'package:bookly_app/Features/Home/presentation/view_models/featured_books_cubit/featured_books_cubit.dart';
+import 'package:bookly_app/Features/Home/presentation/view_models/fetaured_newset_books_cubit/featured_newset_books_cubit.dart';
 import 'package:bookly_app/constant.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:bookly_app/core/utils/service_locator.dart';

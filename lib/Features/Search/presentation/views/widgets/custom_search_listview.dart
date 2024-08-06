@@ -1,7 +1,7 @@
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/book_listview_item.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/book_listview_item.dart';
 import 'package:bookly_app/core/widgets/custom_loading_indicator.dart';
 import 'package:bookly_app/core/widgets/custom_shimmer_listview.dart';
-import 'package:bookly_app/Features/Search/presentaion/view_models/search_books_cubit/search_books_cubit.dart';
+import 'package:bookly_app/Features/Search/presentation/view_models/search_books_cubit/search_books_cubit.dart';
 import 'package:bookly_app/core/widgets/custom_error_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

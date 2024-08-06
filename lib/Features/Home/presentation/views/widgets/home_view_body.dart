@@ -1,7 +1,7 @@
-import 'package:bookly_app/Features/Home/presnetaion/view_models/fetaured_newset_books_cubit/featured_newset_books_cubit.dart';
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/newset_listview.dart';
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/custom_home_view_app_bar.dart';
-import 'package:bookly_app/Features/Home/presnetaion/views/widgets/featured_books_listview.dart';
+import 'package:bookly_app/Features/Home/presentation/view_models/fetaured_newset_books_cubit/featured_newset_books_cubit.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/newset_listview.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/custom_home_view_app_bar.dart';
+import 'package:bookly_app/Features/Home/presentation/views/widgets/featured_books_listview.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:bookly_app/core/widgets/custom_error_widget.dart';
 import 'package:bookly_app/core/widgets/custom_loading_indicator.dart';
@@ -34,7 +34,7 @@ class HomeViewBody extends StatelessWidget {
             SliverToBoxAdapter(
               child: Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 child: Text(
                   'Newset Book',
                   style:

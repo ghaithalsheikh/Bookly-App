@@ -7,7 +7,7 @@ class CustomShimmerBook extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 200,
+      height: 190,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: 3,
@@ -20,7 +20,7 @@ class CustomShimmerBook extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(16),
                 child: Container(
-                  width: 120,
+                  width: 125,
                   color: Colors.orange,
                 ),
               ),
