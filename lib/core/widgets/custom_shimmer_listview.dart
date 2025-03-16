@@ -6,6 +6,8 @@ class CustomShimmerListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
     return ListView.builder(
       padding: EdgeInsets.zero,
       shrinkWrap: true,
@@ -21,8 +23,8 @@ class CustomShimmerListView extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(16),
                   child: Container(
-                    height: 150,
-                    width: 100,
+                    height: screenHeight * 0.18,
+                    width: screenWidth * 0.25,
                     color: Colors.orange,
                   ),
                 ),
@@ -35,28 +37,28 @@ class CustomShimmerListView extends StatelessWidget {
                       baseColor: Colors.grey,
                       highlightColor: Colors.grey[600]!,
                       child: Container(
-                        height: 20,
-                        width: 240,
+                        height: screenHeight * 0.025,
+                        width: screenWidth * 0.58,
                         color: Colors.orange,
                       ),
                     ),
-                    const SizedBox(height: 25),
+                    SizedBox(height: screenHeight * 0.04),
                     Shimmer.fromColors(
                       baseColor: Colors.grey,
                       highlightColor: Colors.grey[600]!,
                       child: Container(
-                        height: 20,
-                        width: 240,
+                        height: screenHeight * 0.025,
+                        width: screenWidth * 0.58,
                         color: Colors.orange,
                       ),
                     ),
-                    const SizedBox(height: 25),
+                    SizedBox(height: screenHeight * 0.04),
                     Shimmer.fromColors(
                       baseColor: Colors.grey,
                       highlightColor: Colors.grey[600]!,
                       child: Container(
-                        height: 20,
-                        width: 240,
+                        height: screenHeight * 0.025,
+                        width: screenWidth * 0.58,
                         color: Colors.orange,
                       ),
                     ),

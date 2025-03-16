@@ -14,6 +14,7 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: NotificationListener<ScrollNotification>(
         onNotification: (notification) {
@@ -30,7 +31,7 @@ class HomeViewBody extends StatelessWidget {
           slivers: [
             const SliverToBoxAdapter(child: CustomHomeViewAppBar()),
             const SliverToBoxAdapter(child: FeaturedBooksListView()),
-            const SliverToBoxAdapter(child: SizedBox(height: 50)),
+            SliverToBoxAdapter(child: SizedBox(height: screenHeight * 0.04)),
             SliverToBoxAdapter(
               child: Padding(
                 padding:

@@ -1,0 +1,2 @@
+D:/My Flutter/bookly_app/android/app/.cxx/Debug/k5f15t1f/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/My Flutter/bookly_app/android/app/.cxx/Debug/k5f15t1f/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -34,9 +34,6 @@ class ServerFaliure extends Faliure {
         }
         return ServerFaliure(
             errorMessage: 'UnExpected Error, Please try later!');
-      default:
-        return ServerFaliure(
-            errorMessage: 'Opps There are an Error, Please try again');
     }
   }
 
